@@ -216,7 +216,7 @@ body {
     .quiz-app .answers-area .answer label {
         max-width: 400px;
         position: relative;
-        left: 15px;
+        left: 21px;
     }
 }
 @media (max-width : 488px) {
