@@ -133,6 +133,9 @@ function showResults(count) {
             theResults = `<span class="bad">bad</span>, ${rightAnswers} From ${count}.`;
         }
         resultsContainer.innerHTML = theResults;
+        setTimeout(() => {
+            window.location.reload()
+        }, 5000);
     }
 }
 
